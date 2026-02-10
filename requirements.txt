@@ -1,0 +1,17 @@
+# Core stack (future-proof)
+pandas>=2.2.0
+numpy>=1.26.0
+yfinance>=0.2.40
+python-dotenv>=1.0.1
+requests>=2.31.0
+
+# Indicators (pure Python; no C toolchain like TA-Lib needed)
+pandas_ta>=0.3.14b0
+
+# Reporting & plots
+matplotlib>=3.8.0
+plotly>=5.24.0
+quantstats>=0.0.62
+
+# Optional, if you want notebooks
+jupyter>=1.0.0
